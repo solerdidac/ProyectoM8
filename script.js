@@ -1,4 +1,4 @@
-const API_URL = 'https://mi-backend.herokuapp.com/api';
+const API_URL = 'http://localhost:5000/api';
 
 const loginFormElement = document.getElementById('login-form-element');
 const loginMessage = document.getElementById('login-message');
