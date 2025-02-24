@@ -7,15 +7,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Formulario de login -->
-  <div id="login-form">
+  <form id="login-form">
     <h3>Iniciar sesión</h3>
     <input type="text" id="login-username" placeholder="Usuario" required>
     <input type="password" id="login-password" placeholder="Contraseña" required>
     <button type="submit">Iniciar sesión</button>
     <p id="login-message"></p>
-  </div>
+</form>
   <button id="logoutButton" style="display: none;">Cerrar sesión</button>
+
   <h1>Biblioteca de Clásicos</h1>
   <!-- Tabla de libros siempre visible -->
   <div id="books-section">
@@ -38,7 +38,6 @@
     <input type="number" id="book-year" placeholder="Año" required>
     <button type="button" id="createButton">AÑADIR LIBRO</button>
   </form>
-
   <script src="script.js"></script>
 </body>
 </html>
